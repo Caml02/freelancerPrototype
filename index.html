@@ -58,7 +58,11 @@
     <div class="container">
       <div class="row">
         <div class="col-6">
-          <img src="public\build\img\CV PHOTO.avif" alt="Foto de perfil" class="img-fluid rounded-circle">
+          <picture>
+            <source srcset="public/build/img/CV PHOTO.avif" type="image/avif">
+            <source srcset="public/build/img/CV PHOTO.webp" type="image/webp">
+            <img class="img-fluid rounded-circle" loading="lazy" width="200" height="300" src="src/img/CV PHOTO.jpg" alt="CV Imagen">
+          </picture>
         </div>
         <div class="col-6 text-center">
           <h2 class="fw-bold mb-3 ">Sobre mí</h2>
@@ -79,7 +83,11 @@
         <h2 class="fw-bold">Proyectos</h2>
         <div class="card-group">
           <div class="card">
-            <img src="public/build/img/festivalMusic.png" class="card-img-top" alt="...">
+            <picture>
+              <source srcset="public/build/img/FestivalMusic.avif" type="image/avif">
+              <source srcset="public/build/img/FestivalMusic.webp" type="image/webp">
+              <img loading="lazy" width="200" height="300" src="public/build/img/FestivalMusic.png" alt="Psicosa Imagen">
+            </picture>
             <div class="card-body">
               <h5 class="card-title">Festival Music</h5>
               <p class="card-text">En esta increíble app web podemos ver los lenguajes basicos de programación para Front-End y las técnicas mas utilizados para la elaboración de la misma</p>
@@ -95,7 +103,11 @@
             </div>
           </div>
           <div class="card">
-            <img src="/public/build/img/PiscosaPage.png" class="card-img-top" alt="...">
+            <picture>
+              <source srcset="public/build/img/PiscosaPage.avif" type="image/avif">
+              <source srcset="public/build/img/PiscosaPage.webp" type="image/webp">
+              <img loading="lazy" width="200" height="300" src="public/build/img/PiscosaPage.png" alt="Psicosa Imagen">
+            </picture>
             <div class="card-body">
               <h5 class="card-title">PsicoSa</h5>
               <p class="card-text">Será una herramienta accesible y efectiva que les permita acceder a recursos y apoyo para manejar sus síntomas (Depresión y ansiedad principalmente). La aplicación puede ofrecer una amplia gama de recursos y herramientas de seguimiento de la salud mental.</p>
